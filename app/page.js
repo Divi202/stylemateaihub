@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
+import Steps from "@/components/Steps";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
     <Navbar></Navbar>
     <HeroSection></HeroSection>
     <Features></Features>
+    <Steps></Steps>
+    {/* <WhyChoose></WhyChoose> */}
     
     </>
   );
