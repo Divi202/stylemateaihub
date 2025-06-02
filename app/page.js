@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
 import Steps from "@/components/Steps";
+import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
     <HeroSection></HeroSection>
     <Features></Features>
     <Steps></Steps>
-    {/* <WhyChoose></WhyChoose> */}
+    <WhyChoose></WhyChoose>
     
     </>
   );
