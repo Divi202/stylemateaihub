@@ -5,7 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
 import Steps from "@/components/Steps";
 import WhyChoose from "@/components/WhyChoose";
-
+import CTA from "@/components/CTA";
 export default function Home() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function Home() {
     <Features></Features>
     <Steps></Steps>
     <WhyChoose></WhyChoose>
-    
+    <CTA></CTA>
     </>
   );
 }
