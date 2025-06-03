@@ -8,7 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: "Home", href: "/hero" },
+    { label: "Home", href: "/" },
     { label: "Features", href: "#features" },
     { label: "Steps", href: "#steps" },
     { label: "Why Us", href: "#why" },
@@ -18,7 +18,7 @@ export default function Navbar() {
     <header className="w-full fixed top-0 left-0 z-50 bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo/Brand */}
-        <a href="#hero" className="text-xl font-bold text-purple-600">StyleMateAI</a>
+        <a href="/" className="text-xl font-bold text-purple-600">StyleMateAI</a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 items-center">
