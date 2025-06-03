@@ -8,7 +8,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const navLinks = [
-    { label: "Home", href: "#hero" },
+    { label: "Home", href: "/hero" },
     { label: "Features", href: "#features" },
     { label: "Steps", href: "#steps" },
     { label: "Why Us", href: "#why" },
@@ -27,7 +27,7 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
-          <a href="#cta">
+          <a href="/sign-in">
             <Button className="ml-4">Start Styling</Button>
           </a>
         </nav>
@@ -49,7 +49,7 @@ export default function Navbar() {
                 {link.label}
               </a>
             ))}
-            <a href="#cta" onClick={() => setMenuOpen(false)}>
+            <a href="/sign-in" onClick={() => setMenuOpen(false)}>
               <Button className="w-full mt-2">Start Styling</Button>
             </a>
           </div>
